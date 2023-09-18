@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Cirka';
+    src: url('Cirka-Bold.woff2') format('woff2'),
+        url('Cirka-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cirka';
+    src: url('Cirka-Light.woff2') format('woff2'),
+        url('Cirka-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cirka';
+    src: url('Cirka-Regular.woff2') format('woff2'),
+        url('Cirka-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bebas Neue Pro Book';
+    src: url('BebasNeuePro-Book.woff2') format('woff2'),
+        url('BebasNeuePro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src: url('BebasNeuePro-ThinItalic.woff2') format('woff2'),
+        url('BebasNeuePro-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Bold Italic';
+    src: url('BebasNeuePro-BoldItalic.woff2') format('woff2'),
+        url('BebasNeuePro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro ';
+    src: url('BebasNeuePro-Italic.woff2') format('woff2'),
+        url('BebasNeuePro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src: url('BebasNeuePro-Thin.woff2') format('woff2'),
+        url('BebasNeuePro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src: url('BebasNeuePro-Light.woff2') format('woff2'),
+        url('BebasNeuePro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Regular';
+    src: url('BebasNeuePro-Regular.woff2') format('woff2'),
+        url('BebasNeuePro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Bold';
+    src: url('BebasNeuePro-Bold.woff2') format('woff2'),
+        url('BebasNeuePro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src: url('BebasNeuePro-LightItalic.woff2') format('woff2'),
+        url('BebasNeuePro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Book';
+    src: url('BebasNeuePro-BookItalic.woff2') format('woff2'),
+        url('BebasNeuePro-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
