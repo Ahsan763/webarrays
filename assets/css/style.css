@@ -115,7 +115,7 @@ a:hover {
 	left: 0;
 	width: 100%;
 	background-color: var(--off-white);
-	z-index: 9;
+	z-index: 99;
 }
 .hdrnav{
 	padding: 15px 0 20px 0;
@@ -178,10 +178,15 @@ a:hover {
 }
 .hero__hdng{
 	width: 100%;
-	max-width: 980px;
-	font-size: 65px;
+	max-width: 1020px;
+	font-size: 62px;
 	font-weight: bold;
 	color: var(--main);
+	overflow: hidden;
+}
+.hero__hdng span{
+	display: inline-block;
+	transform: translateY(100%);
 }
 .banner{
 	position: relative;
@@ -208,13 +213,19 @@ a:hover {
 	font-family: 'Bebas Neue Pro Bold';
 	font-weight: bold;
 	color: var(--main);
+	overflow: hidden;
 	margin-bottom: 20px;
 }
+/* .prddes__hdng span{
+	display: inline-block;
+	transform: translateY(100%);
+} */
 .prddes__p{
 	font-size: 22px;
 	font-weight: bold;
 	color: var(--main);
 	margin-bottom: 20px !important;
+	opacity: 0;
 }
 /* prddet end */
 .team{
@@ -292,7 +303,7 @@ a:hover {
 .help__hdng{
 	width: 55%;
 	font-size: 110px;
-	font-weight: 500;
+	font-weight: 600;
 	color: #1b4ecc;
 }
 .help__para{
@@ -305,6 +316,9 @@ a:hover {
 	text-align: center;
 }
 .helpcrd__img{
+	width: 135px;
+	height: 112px;
+	object-fit: contain;
 	margin-bottom: 30px;
 }
 .helpcrd__hdng{
@@ -364,6 +378,9 @@ a:hover {
 	margin-bottom: 60px;
 }
 .helpcrd__img2{
+	width: 670px;
+	height: 190px;
+	object-fit: contain;
 	margin-bottom: 30px;
 }
 .hdrnavList__linkBtn2{
@@ -404,4 +421,106 @@ a:hover {
 	font-size: 22px;
 	color: #f0ebeb;
 	font-weight: 500;
+}
+/* contact */
+.contact{
+	height: 100vh;
+	position: relative;
+    width: 100%;
+    background-color: #fbf9f9;
+    overflow: hidden;
+	margin-bottom: 40px;
+}
+#top{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 50vh;
+    background-color: #fbf9f9;
+    z-index: 9;
+    overflow: hidden;
+}
+#center{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    transform-origin: center;
+    background-color: #1b4ecc;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    overflow: hidden;
+	z-index: 0;
+}
+#bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: #fbf9f9;
+    overflow: hidden;
+}
+.contact h1{
+    font-size: 18vw;
+	line-height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Bebas Neue Pro Bold';
+    text-transform: uppercase;
+    color: #1b4ecc;
+	width: 100%;
+}
+#top-h1{
+    bottom: -100px;
+}
+#bottom-h1{
+    top: -100px;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+	position: relative;
+	top: 100vh;
+	margin: 0 auto;
+}
+.contentform{
+	width: 550px;
+	max-width: 650px;
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 40px 40px;
+	margin: 0 auto;
+}
+.content__h2{
+	text-align: center;
+	color: #fff;
+	font-size: 90px;
+	margin-bottom: 30px;
+}
+.contentform__input{
+	height: 45px;
+	margin-bottom: 15px;
+}
+.contentform__inputtextarea{
+	height: 150px;
+}
+.contentform__btn{
+	border: none;
+	background-color: #1b4ecc;
+	color: #fff;
+	padding: 8px 30px;
+	border-radius: 50px;
+	font-size: 20px;
+	margin-top: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.3s ease-in-out;
+}
+.contentform__btn:hover{
+	background-color: transparent;
+	color: #1b4ecc;
+	transition: all 0.3s ease-in-out;
+}
+.contentform__btn:focus {
+    outline: 2px dashed #1b4ecc;
+    outline-offset: 0.25rem;
 }
