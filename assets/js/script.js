@@ -8,15 +8,24 @@ AOS.init({
 var tl1 = gsap.timeline({defaults:{ease: Power1.easeIn,}});
 tl1.to(".hero__hdng-sp",{y:'0%',duration:0.7,stagger:0.2});
 // tl1end
-var tl2 = gsap.timeline({scrollTrigger:{
-  trigger:".banner",
-  // markers:true,
-  start:"70% 90%",
-  end:"150% 90%",
-  scrub:2,
-  pin:true
-}});
-tl2.fromTo(".banner__img",{opacity:0,scaleY:0},{opacity:1,duration:0.9,scaleY:1,ease: "slowMo.easeIn"},)
+if (window.innerWidth >= 768) {
+  var tl2 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".banner",
+      // markers: true,
+      start: "70% 90%",
+      end: "150% 90%",
+      scrub: 2,
+      pin: true
+    }
+  });
+  tl2.fromTo(
+    ".banner__img",
+    { opacity: 0, scaleY: 0 },
+    { opacity: 1, duration: 0.9, scaleY: 1, ease: "slowMo.easeIn" }
+  );
+}
+
 // tl2end
 
 

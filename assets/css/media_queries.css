@@ -10,20 +10,25 @@
 }
 
 @media(max-width:1199px) {
+
     /* 992px to  1199px */
     /* small laptops */
     .expertise {
         padding: 50px 40px;
     }
-    .expertise_box svg{
+
+    .expertise_box svg {
         transform: scale(.7);
     }
+
     .expertise-txt {
         font-size: 18px;
     }
+
     .btn_box {
         margin-top: 0px !important;
     }
+
     .supporting_box {
         padding: 0px 0px;
     }
@@ -55,12 +60,13 @@
     .kooley_heading {
         margin-top: 50px;
     }
+
     .supporting_box {
         padding: 0 10px;
     }
-   
-    
-    
+
+
+
 }
 
 @media(max-width:767px) {
@@ -170,9 +176,11 @@
         transform: rotate(90deg);
         margin-bottom: 20px;
     }
-    .craft_mobile .form_img{
+
+    .craft_mobile .form_img {
         transform: rotate(0deg);
     }
+
     .meeting_bannner {
         padding: 60px 0;
     }
@@ -221,27 +229,170 @@
     .footer_links .col-sm-6 {
         width: 50%;
     }
-    .expertise .expertise_box .primary_heading{
+
+    .expertise .expertise_box .primary_heading {
         font-size: 52px;
     }
-    .working_box h3{
+
+    .working_box h3 {
         font-size: 18px;
     }
-    .supporting_box img, .grow_box img, .learn_box img{
+
+    .supporting_box img,
+    .grow_box img,
+    .learn_box img {
         height: auto !important;
     }
-    .supporting_box p, .grow_box p, .learn_box p, .our_work .card_box p{
+
+    .supporting_box p,
+    .grow_box p,
+    .learn_box p,
+    .our_work .card_box p {
         text-align: left;
-    font-size: .999625rem;
+        font-size: .999625rem;
     }
+
     #about_us .expertise_box {
         margin-bottom: 10px !important;
     }
-    .brand_sec img{
+
+    .brand_sec img {
         width: 100px;
     }
-    .brand_sec .col-sm-6{
+
+    .brand_sec .col-sm-6 {
         width: 50%;
+    }
+
+    .hero__hdng {
+        font-size: 24px;
+    }
+
+    .hero {
+        padding: 110px 0 20px 0;
+    }
+
+    .team__hdng {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .team__bg {
+        width: 180px;
+        height: 180px;
+        top: -70px;
+        right: -70px;
+    }
+
+    .teamrow {
+        margin-bottom: 20px;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .teambox {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .teamInnerbox1__P {
+        font-size: 18px;
+    }
+
+    .teamrow2 {
+        flex-wrap: wrap;
+    }
+
+    .teamrow2__img {
+        width: 220px;
+        height: 85px;
+        max-width: 100%;
+    }
+    .helpcrd__img2 {
+        width: 600px;
+        height: 120px;
+        object-fit: contain;
+        margin-bottom: 20px;
+    }
+
+    .help__hdng {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .help {
+        padding: 40px 0 20px 0;
+    }
+
+    .helpRow {
+        margin-bottom: 50px;
+        row-gap: 10px;
+        flex-direction: column;
+        margin: 0 0 20px 0;
+    }
+
+    .help__para {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .prddes {
+        padding: 25px 0px 20px 0px;
+    }
+
+    .hdrnav {
+        margin: 0 20px;
+    }
+
+    .helpcrd__p {
+        font-size: 18px;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .helpRow2 {
+        margin: 0 0px;
+    }
+
+    .ambition {
+        padding: 0px 0 30px 0;
+    }
+
+    .ambition__hdng {
+        font-size: 42px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .ambition__p {
+        font-size: 18px;
+        margin-bottom: 40px !important;
+    }
+    .footerBox__hdng {
+        font-size: 42px; 
+        margin-bottom: 1.5rem;
+    }
+    .footerBox {
+        margin: 0;
+        padding: 45px 20px 45px 20px; 
+    }
+    .footerrow1 {
+        margin-bottom: 50px;
+    }
+    .footerrow2 {
+        column-gap: 20px;
+        flex-wrap: wrap;
+    }
+    .content__h2 { 
+        font-size: 52px;
+        margin-bottom: 20px;
+    }
+    .contentform {
+        width: 100%;
+        max-width: 100%; 
+        padding: 20px; 
+    }
+    .hdrnavList__linkBtn2 { 
+        margin-top: 0;
     }
 }
 
