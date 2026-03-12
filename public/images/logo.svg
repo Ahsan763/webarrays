@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="403" height="380" viewBox="0 0 403 380">
+  <g id="Group_1" data-name="Group 1" transform="translate(-523 -317)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(523 317)" fill="#1b4ecc" stroke="#707070" stroke-linejoin="round" stroke-width="1">
+      <rect width="403" height="380" rx="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="402" height="379" rx="19.5" fill="none"/>
+    </g>
+    <text id="WA" transform="translate(546 586)" fill="#fff" font-size="216" font-family="Swiss721BT-Heavy, Swis721 Hv BT" font-weight="800"><tspan x="0" y="0">WA</tspan></text>
+  </g>
+</svg>

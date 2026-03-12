@@ -1,0 +1,27 @@
+/* Only Cirka – not on Google. Bebas Neue & Josefin Sans loaded from Google in layout/style. */
+@font-face {
+    font-family: 'Cirka';
+    src: url('/fonts/Cirka-Bold.woff2') format('woff2'),
+        url('/fonts/Cirka-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cirka';
+    src: url('/fonts/Cirka-Light.woff2') format('woff2'),
+        url('/fonts/Cirka-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cirka';
+    src: url('/fonts/Cirka-Regular.woff2') format('woff2'),
+        url('/fonts/Cirka-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

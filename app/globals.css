@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-off-white font-sans antialiased;
+  }
+  img {
+    @apply max-w-full;
+  }
+  a {
+    @apply no-underline text-black transition-all duration-300;
+  }
+}
