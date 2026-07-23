@@ -756,6 +756,9 @@ a{
 .h-full{
   height: 100%;
 }
+.h-auto{
+  height: auto;
+}
 .min-h-\[140px\]{
   min-height: 140px;
 }
@@ -815,6 +818,9 @@ a{
 }
 .w-full{
   width: 100%;
+}
+.w-\[\]{
+  width: ;
 }
 .max-w-2xl{
   max-width: 42rem;

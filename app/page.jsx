@@ -6,6 +6,7 @@ import Tilt from "react-parallax-tilt";
 import { FaReact, FaNodeJs, FaFigma, FaMobileAlt, FaCode, FaRocket, FaTwitter, FaLinkedin, FaGithub, FaStar, FaArrowRight, FaPlay, FaCheckCircle } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiMongodb, SiPostgresql, SiTypescript, SiVercel, SiGraphql, SiRedis } from "react-icons/si";
 import { HiMenu, HiX } from "react-icons/hi";
+import Image from "next/image";
 
 /* ─────────────────────────── ANIMATION VARIANTS ─────────────────────────── */
 const fadeUp = {
@@ -192,9 +193,7 @@ export default function Home() {
       <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled ? "bg-white/80 backdrop-blur-2xl shadow-sm shadow-slate-200/50 border-b border-slate-200/50" : "bg-transparent"}`}>
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} className="flex items-center gap-2.5 cursor-pointer">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-600 to-violet-600 flex items-center justify-center shadow-lg shadow-indigo-500/30">
-              <span className="text-white text-sm font-black font-display">W</span>
-            </div>
+            <Image src="/images/logo.png" alt="logo" width="40" height="40" className="w-9 h-auto" />
             <span className="font-display font-black text-xl tracking-tight text-slate-900">WEBARRAYS</span>
           </motion.div>
 
@@ -283,8 +282,8 @@ export default function Home() {
             <span className="relative">
               Matter.
               <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 400 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2 10 Q100 2 200 10 Q300 18 398 10" stroke="url(#underlineGrad)" strokeWidth="3" strokeLinecap="round" fill="none"/>
-                <defs><linearGradient id="underlineGrad" x1="0" y1="0" x2="400" y2="0"><stop offset="0%" stopColor="#4f46e5"/><stop offset="100%" stopColor="#a855f7"/></linearGradient></defs>
+                <path d="M2 10 Q100 2 200 10 Q300 18 398 10" stroke="url(#underlineGrad)" strokeWidth="3" strokeLinecap="round" fill="none" />
+                <defs><linearGradient id="underlineGrad" x1="0" y1="0" x2="400" y2="0"><stop offset="0%" stopColor="#4f46e5" /><stop offset="100%" stopColor="#a855f7" /></linearGradient></defs>
               </svg>
             </span>
           </motion.h1>
@@ -837,9 +836,7 @@ export default function Home() {
           <div className="grid md:grid-cols-5 gap-10 mb-16">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2.5 mb-5">
-                <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-600 to-violet-600 flex items-center justify-center">
-                  <span className="text-white text-sm font-black font-display">W</span>
-                </div>
+                <Image src="/images/logo.png" alt="logo" width="40" height="40" className="w-9 h-auto" />
                 <span className="font-display font-black text-xl text-white">WEBARRAYS</span>
               </div>
               <p className="text-slate-400 max-w-xs leading-relaxed text-sm mb-6">
